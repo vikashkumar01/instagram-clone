@@ -1,0 +1,30 @@
+.comment-container{
+    position: absolute;
+    width: 40%;
+    height: 70vh;
+    background-color: $color-white;
+    top:5rem;
+    left: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    border-radius: 0.5rem;
+    position: fixed;
+    z-index: 99;
+    left: 25%;
+    padding: 1rem;
+
+    >button{
+
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        background-color: $color-white;
+        border: none;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        cursor: pointer;
+        background-color: $color-lightgrey;
+        color:$color-grey;
+        border-radius: 50%;
+    }
+}

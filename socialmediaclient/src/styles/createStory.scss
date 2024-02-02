@@ -1,0 +1,41 @@
+.create-story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    left: 35%;
+    top:25%;
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    flex-direction: column;
+
+    >label{
+        background-color: $color-blue;
+        color: $color-white;
+        cursor: pointer;
+        padding: 0.8rem;
+        >input{
+            display: none;
+            
+        }
+    }
+
+    >img,>video{
+       width: 8rem;
+       height: 8rem;
+       object-fit: cover;
+    }
+
+    >button{
+        padding: 0.8rem;
+        margin-top: 1rem;
+        border: none;
+        color: $color-white;
+        background-color: $color-blue;
+        cursor: pointer;
+    }
+
+   
+}

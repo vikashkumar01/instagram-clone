@@ -1,0 +1,35 @@
+.create-story-or-show-story {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20%;
+    left: 40%;
+    top: calc(50% - 8rem);
+    background-color: $color-white;
+    border-radius: 0.5rem;
+
+    >button {
+        cursor: pointer;
+        padding: 0.8rem;
+        border-bottom: 1px;
+        border-color: #e6e6e6;
+        font-size: 0.9rem;
+        outline: none;
+
+        &:hover {
+            outline: none;
+            background-color: #e6e6e6;
+        }
+
+    }
+
+    >:first-child {
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+    }
+
+    >:last-child {
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+}

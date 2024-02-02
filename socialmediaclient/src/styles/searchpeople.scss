@@ -1,0 +1,57 @@
+.search-people-container{
+     width: 80%;
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+
+     >:nth-child(1){
+          display: flex;
+          flex-direction: column;
+          padding: 1.5rem;
+          border-bottom: 1px solid $color-border;
+
+          >span{
+            font-size: 2rem;
+          }
+
+          >input{
+            width: 100%;
+            height: 2.5rem;
+            margin-top: 1.5rem;
+            padding: 0.5rem;
+            border: none;
+            outline: none;
+            background-color: $color-lightgrey;
+            border-radius: 0.5rem;
+
+          }
+
+     }
+
+     >:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        overflow-y: scroll;
+
+        >div{
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            cursor: pointer;
+            &:hover{
+              background-color: $color-lightgrey;
+            }
+            >img{
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            >span{
+                margin-left: 1rem;
+            }
+        }
+     }
+}

@@ -1,0 +1,43 @@
+.profile-setting-modal-container{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    top:25%;
+    left: 35%;
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    >button,a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: $color-white;
+        border: none;
+        cursor: pointer;
+        padding: 1rem;
+        border-bottom: 1px solid $color-border;
+        font-size: 1rem;
+        color: $color-black;
+
+        &:hover{
+            background-color: $color-lightgrey;
+        }
+    }
+
+    >:first-child{
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+
+    >:last-child{
+        border: none;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+}

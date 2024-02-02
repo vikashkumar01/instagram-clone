@@ -1,0 +1,35 @@
+.highlight-modal-container {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 40%;
+    top:35%;
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+
+    >button{
+        height: auto;
+        padding: 1rem;
+        border: none;
+        border-bottom: 1px solid $color-border;
+        cursor: pointer;
+        background-color: $color-white;
+        
+
+        &:hover{
+          background-color: $color-lightgrey;
+        }
+    }
+
+    >:first-child{
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+    }
+
+    >:last-child{
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+}

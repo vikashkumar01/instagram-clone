@@ -1,0 +1,36 @@
+.user-comment-modal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 35%;
+    top:calc(85% / 2);
+    width: 30%;
+    height: 15%;
+    background-color: $color-white;
+    border: none;
+    border-radius: 1rem;
+
+    >button{
+        width: 100%;
+        height: 50%;
+        border:none;
+        cursor: pointer;
+        font-size: 1rem;
+        &:hover{
+            background-color: lightgrey;
+        }
+        
+    }
+    >:nth-child(1){
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        color: $color-red;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.454);
+        font-weight: 600;
+    }
+    >:nth-child(2){
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}

@@ -1,0 +1,54 @@
+.profile-section-2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    margin-top: 1rem;
+
+    >:nth-child(1) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 3rem;
+        border-top: 1px solid $color-lightgrey;
+
+        >div {
+            width: 8rem;
+            >button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 5rem;
+                background-color: $color-white;
+                height: 3rem;
+                margin-left: 2rem;
+                border: none;
+                color: $color-grey;
+                font-size: 1rem;
+                border-top: 1px solid $color-lightgrey;
+                cursor: pointer;
+
+                >span {
+                    margin-left: 0.5rem;
+                }
+
+            }
+
+            .profile-btn-active {
+                border-top: 1px solid $color-black;
+                color: $color-black
+            }
+
+            >:first-child {
+                margin-left: 0;
+            }
+        }
+
+
+    }
+
+    >:nth-child(2) {
+        margin-top: 1rem;
+    }
+}

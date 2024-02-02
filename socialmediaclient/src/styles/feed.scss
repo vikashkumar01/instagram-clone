@@ -1,0 +1,23 @@
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $color-lightgrey;
+
+    >div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .right {
+            position: relative;
+            min-height:100vh;
+            width: 75%;
+            padding: 0.5rem;
+            left: 25%;
+            background-color: $color-white
+        }
+    }
+
+}

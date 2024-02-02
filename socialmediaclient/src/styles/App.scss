@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+@import 'color';
+@import 'sidebar';
+@import 'feedsection';
+@import 'story';
+@import 'allfeed';
+@import 'comment';
+@import 'rightbar';
+@import 'spinner';
+@import 'loginpage';
+@import 'signuppage';
+@import 'feed';
+@import 'profile';
+@import 'profilesection1';
+@import 'storyhighlights';
+@import 'createHighlights';
+@import 'highlightModal';
+@import 'profilesection2';
+@import 'postSection';
+@import 'reelsection';
+@import 'savepost';
+@import 'userpostshowmodal';
+@import 'forgotpassword';
+@import 'emptypost';
+@import 'usercommentmodal';
+@import 'createpost';
+@import 'explore';
+@import 'searchpeople';
+@import 'notification';
+@import 'usermessage';
+@import 'message';
+@import 'reels';
+@import 'notfound';
+@import 'profilesettingmodal';
+@import 'updateuser';
+@import 'userchangepassword';
+@import 'followerModal';
+@import 'followingModal';
+@import 'postModalAction';
+@import 'userSwitchModal';
+@import 'updateFeed';
+@import 'showStory';
+@import 'createStoryOrShowStory';
+@import 'createStory';
+@import 'manageStory';

@@ -1,0 +1,19 @@
+.user-switch-modal-container{
+   
+    position: absolute;
+    background-color: $color-white;
+    width: 25%;
+    top:40%;
+    left: calc(75% / 2);
+    border-radius: 0.5rem;
+
+    >button{
+        padding: 1rem;
+        width: 100%;
+        border-radius: 0.5rem;
+        border: none;
+        color: $color-blue;
+        cursor: pointer;
+    }
+
+}

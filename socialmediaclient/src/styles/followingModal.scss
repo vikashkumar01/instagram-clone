@@ -1,0 +1,90 @@
+.following-modal-container{
+    
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white;
+    top:15%;
+    left:calc(70% / 2);
+    border-radius: 1rem;
+    
+    >:nth-child(1){
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $color-border;
+        padding: 1rem;
+        >input{
+            width: 100%;
+            height: 2rem;
+            outline: none;
+            border: none;
+            padding: 1rem;
+            background-color: $color-lightgrey;
+            margin-top: 0.5rem;
+            border-radius: 1rem;
+           
+        }
+    }
+
+    >:nth-child(2){
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        >div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            height: 3rem;
+            border-bottom: 1px solid $color-lightgrey;
+            &:hover{
+                background-color: $color-lightgrey;
+            }
+
+            >div{
+                display: flex;
+                align-items: center;
+                >img{
+                    width: 2rem;
+                    height: 2rem;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                >button{
+                    margin-left: 1rem;
+                    color: $color-black;
+                    border: none;
+                    background-color: transparent;
+                    font-size: 1rem;
+                    cursor: pointer;
+
+                    &:hover{
+                        color:$color-blue;
+                       
+                    }
+                }
+            }
+
+            >button{
+                background-color: $color-lightgrey;
+                border: none;
+                color:$color-black;
+                cursor: pointer;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+                &:hover{
+                    background-color: $color-lightgrey;
+                }
+            }
+           
+        }
+    }
+}

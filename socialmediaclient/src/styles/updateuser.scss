@@ -1,0 +1,50 @@
+.update-user-container{
+     display: flex;
+     flex-direction: column;
+     padding: 2rem;
+
+     >:nth-child(2){
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        >div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 70%;
+            height: auto;
+            margin-top: 1.5rem;
+
+            >label{
+                font-size: 1rem;
+            }
+
+            >input,>textarea{
+                width: 80%;
+                height: 2rem;
+                outline: none;
+                padding: 0.5rem;
+            }
+
+            >textarea{
+                height: 5rem;
+            }
+
+            >button{
+                margin-left: 20%;
+                height: 2rem;
+                outline: none;
+                border: none;
+                padding: 0.5rem;
+                cursor: pointer;
+                background-color: $color-blue;
+                color: $color-white;
+                
+            }
+        }
+     }
+}
